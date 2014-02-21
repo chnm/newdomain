@@ -228,13 +228,5 @@ echo "user:$NEW_USER password:$NEW_PASS database:$project host:$HOST" > $PROJHOM
 chown ${project}_sftp:${project}_sftp $PROJHOME/mysql.info
 chmod 440 $PROJHOME/mysql.info
 
-echo
-echo
-echo "Test Apache configuration with: service httpd configtest"
-echo "If everything looks kosher, then restart Apache with: service httpd graceful"
-echo
-echo "Next, on CHNMDEV, create the appropriate entry in /stats/awstats/configs/HOST/config.inc"
-echo "Then, run the /stats/awstats/configs/HOST/generate_awstats_configs script"
-echo
 
 exit

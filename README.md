@@ -1,3 +1,6 @@
+# Archived
+RRCHNM archived this repository in February 2022. Last actual code activity was February 2014. If you need more information or to unarchive this repository, please contact us at webmaster at chnm.gmu.edu
+
 # Create a New Domain on the server
 
 This script will create a new Apache, PHP-FPM, MySQL environment on the server for a new domain. It does the following things:
